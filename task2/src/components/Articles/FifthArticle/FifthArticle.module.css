@@ -1,0 +1,50 @@
+.fifthArticle__section {
+  position: relative;
+  margin: 20px;
+  font-family: Roboto;
+}
+
+.fifthArticle__section > h2 {
+  text-align: center;
+  font-family: Handshop;
+  text-transform: uppercase;
+}
+
+.fifthArticle__section > h3 {
+  text-align: center;
+  font-family: Oldnewspapertypes;
+  font-size: 14px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.fifthArticle__section > h3:before {
+  display: block;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #554535;
+}
+
+.fifthArticle__section > h3:after {
+  display: block;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #554535;
+}
+
+.fifthArticle__section > p {
+  padding: 10px 0;
+  text-align: justify;
+}
+
+@media (min-width: 1200px) {
+  .fifthArticle__section > h2 {
+    font-size: 34px;
+  }
+
+  .fifthArticle__section > h3 {
+    font-size: 24px;
+  }
+}

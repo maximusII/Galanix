@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #e0c995;
+}
+
+/*Fonts*/
+
+@font-face {
+  font-family: "Oldnewspapertypes";
+  src: url(./fonts/oldnewspapertypes/oldnewspapertypes-webfont.woff)
+      format("woff"),
+    url(./fonts/oldnewspapertypes/oldnewspapertypes-webfont.woff2)
+      format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Courant";
+  src: url(./fonts/courant/dk_courant-webfont.woff) format("woff"),
+    url(./fonts/courant/dk_courant-webfont.woff2) format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Handshop";
+  src: url(./fonts/handshop/fontscafe_handshoptypography-c30_demo-webfont.woff)
+      format("woff"),
+    url(./fonts/handshop/fontscafe_handshoptypography-c30_demo-webfont.woff)
+      format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}

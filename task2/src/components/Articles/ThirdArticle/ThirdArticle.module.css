@@ -1,0 +1,25 @@
+.thirdArticle__section {
+  position: relative;
+  margin: 0 20px;
+}
+
+.thirdArticle__section img {
+  display: block;
+  width: 100%;
+  border: 5px double #554535;
+  outline: 2px solid #554535;
+
+  margin: 20px auto;
+}
+
+@media (min-width: 768px) {
+  .thirdArticle__section img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .thirdArticle__section img {
+    width: 100%;
+  }
+}

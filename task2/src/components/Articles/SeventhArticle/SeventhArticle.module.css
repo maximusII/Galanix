@@ -1,0 +1,51 @@
+.seventhArticle__section {
+  position: relative;
+  margin: 20px;
+  font-family: Roboto;
+}
+
+.seventhArticle__section > h2 {
+  text-align: center;
+  font-family: Oldnewspapertypes;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.seventhArticle__section img {
+  display: block;
+  width: 70%;
+  border: 5px double #554535;
+  outline: 2px solid #554535;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.seventhArticle__section > h3 {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.seventhArticle__section > p {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .seventhArticle__section img {
+    width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .seventhArticle__section > h2 {
+    font-size: 32px;
+  }
+
+  .seventhArticle__section > p {
+    font-size: 18px;
+  }
+
+  .seventhArticle__section img {
+    width: 100%;
+  }
+}

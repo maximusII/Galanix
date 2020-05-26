@@ -1,0 +1,94 @@
+.header__container {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.header__container:before {
+  display: block;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #554535;
+  top: -15px;
+}
+
+.header__container:after {
+  display: block;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #554535;
+  bottom: -15px;
+}
+
+.header__container > div {
+  text-align: center;
+}
+
+.header__subtitle1 > p,
+.header__subtitle2 > p {
+  font-family: Oldnewspapertypes;
+  margin: 0;
+  padding: 2px;
+}
+
+.header__subtitle1_weekdays {
+  font-size: 8px;
+}
+
+.header__subtitle1_date {
+  font-size: 6px;
+}
+
+h1 {
+  font-family: Courant;
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .header__container {
+    display: grid;
+    grid-template-areas: "subtitle1 title subtitle2";
+    grid-template-columns: 4fr 8fr 4fr;
+    grid-gap: 10px;
+  }
+
+  .header__title {
+    grid-area: title;
+    align-self: center;
+  }
+
+  .header__subtitle1 {
+    grid-area: subtitle1;
+    align-self: center;
+    justify-self: self-start;
+  }
+
+  .header__subtitle2 {
+    grid-area: subtitle2;
+    align-self: center;
+    justify-self: self-end;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__container {
+    grid-template-columns: 1fr 10fr 1fr;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .header__subtitle1_weekdays {
+    font-size: 12px;
+  }
+
+  .header__subtitle1_date {
+    font-size: 10px;
+  }
+}

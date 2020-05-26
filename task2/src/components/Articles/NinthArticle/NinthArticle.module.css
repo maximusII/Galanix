@@ -1,0 +1,40 @@
+.ninthArticle__section {
+  position: relative;
+  margin: 20px;
+  font-family: Roboto;
+}
+
+.ninthArticle__section > h2 {
+  text-align: center;
+  font-family: Handshop;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.ninthArticle__section img {
+  display: block;
+  width: 70%;
+  border: 5px double #000;
+  margin: 10px auto;
+}
+
+.ninthArticle__section > h3 {
+  text-align: center;
+  font-family: Oldnewspapertypes;
+  font-size: 14px;
+}
+
+.ninthArticle__section > p {
+  padding: 10px 0;
+  text-align: justify;
+}
+
+@media (min-width: 1200px) {
+  .ninthArticle__section > h2 {
+    font-size: 46px;
+  }
+
+  .ninthArticle__section > h3 {
+    font-size: 26px;
+  }
+}

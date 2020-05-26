@@ -1,0 +1,40 @@
+.fourthArticle__section {
+  position: relative;
+  margin: 20px;
+  font-family: Roboto;
+}
+
+.fourthArticle__section > h2 {
+  text-align: center;
+  font-family: Handshop;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.fourthArticle__section > p {
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.fourthArticle__section > h2:before {
+  display: block;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #554535;
+  top: 14px;
+}
+
+.fourthArticle__section > h2:after {
+  display: block;
+  width: 100%;
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #554535;
+}
+
+@media (min-width: 768px) {
+  .fourthArticle__section > h2 {
+    margin-top: -16px;
+  }
+}
