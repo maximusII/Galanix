@@ -2,12 +2,13 @@ import React from "react";
 import styles from "./FirstArticle.module.css";
 import vintageCar from "../../../img/vintage-car.png";
 
-function FirstArticle() {
+function FirstArticle({ clickHandler }) {
   return (
     <div className={styles.firstArticle__container}>
-      <section className={styles.firstArticle__section}>
+      <section className={styles.firstArticle__section} onClick={clickHandler}>
         <h2 className={styles.firstArticle__title}>Editorial News</h2>
         <img
+          name="0"
           className={styles.firstArticle__image}
           src={vintageCar}
           alt="vintage-car"

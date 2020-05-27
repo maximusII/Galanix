@@ -2,11 +2,11 @@ import React from "react";
 import styles from "./EighthArticle.module.css";
 import typewriter from "../../../img/typewriter.png";
 
-function EighthArticle() {
+function EighthArticle({ clickHandler }) {
   return (
     <div className={styles.eighthArticle__container}>
-      <section className={styles.eighthArticle__section}>
-        <img src={typewriter} alt="rotary phone" />
+      <section className={styles.eighthArticle__section} onClick={clickHandler}>
+        <img name="4" src={typewriter} alt="rotary phone" />
         <h2>Your title</h2>
         <h3>All information</h3>
         <p>

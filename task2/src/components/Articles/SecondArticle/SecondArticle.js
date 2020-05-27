@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./SecondArticle.module.css";
 import vintageCamera from "../../../img/vintage-camera.png";
 
-function SecondArticle() {
+function SecondArticle({ clickHandler }) {
   return (
     <div className={styles.secondArticle__container}>
-      <section className={styles.secondArticle__section}>
+      <section className={styles.secondArticle__section} onClick={clickHandler}>
         <h2>Extra! Only next week</h2>
         <h3> &#9733;World Tour Top Stars Of America&#9733;</h3>
-        <img src={vintageCamera} alt="vintage-camera" />
+        <img name="1" src={vintageCamera} alt="vintage-camera" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
           molestias quam ipsam nesciunt. Veritatis et tempora corporis unde
